@@ -264,8 +264,9 @@
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 60px 0 60px 0;
-    transition: 0.5s;
+    padding: 10px 0 30px 0;
+    /* transition: 0.5s; */
+    height: 170px;
 }
 
 .bg-breadcrumb .breadcrumb {
@@ -953,4 +954,41 @@
 }
 /*** copyright end ***/
 
+/* pagination */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination p {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #EA001E;
+    color: white;
+    border: 1px solid #EA001E;
+}
+
+.pagination p.active {
+    background-color: #EA001E;
+    color: white;
+    border: 1px solid #EA001E;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+/* pagination */
 
