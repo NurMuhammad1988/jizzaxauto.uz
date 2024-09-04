@@ -503,7 +503,7 @@
 }
 
 .categories .categories-item-inner .categories-content {
-    border-top: 4px solid var(--bs-white);
+    /* border-top: 4px solid var(--bs-white); */
     text-align: center;
     background: var(--bs-light);
 }
